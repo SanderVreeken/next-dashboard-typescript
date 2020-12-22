@@ -1,0 +1,27 @@
+.cardGraph {
+  /* background-color: greenyellow; */
+  display: flex;
+  height: calc(100% - (50px + 10px));
+  justify-content: space-around;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.cardGraph > span {
+  align-items: flex-end;
+  display: flex;
+  flex-direction: row;
+}
+
+.cardGraph > span > div {
+  border-radius: 3px 3px 0 0;
+  width: 6px;
+}
+
+.cardGraph > span > div:first-child {
+  background-color: #ffaf2a;
+}
+
+.cardGraph > span > div:nth-child(2) {
+  background-color: #00b380;
+}

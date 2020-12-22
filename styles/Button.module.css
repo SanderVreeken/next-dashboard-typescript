@@ -1,0 +1,16 @@
+.button {
+  align-items: center;
+  border: 0;
+  display: flex;
+}
+
+.button svg {
+  height: 12px;
+  width: 12px;
+}
+
+.button > div {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}

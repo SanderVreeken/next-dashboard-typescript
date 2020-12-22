@@ -1,0 +1,88 @@
+.taskBar {
+  border-color: var(--main-border-color);
+  border-style: solid;
+  border-width: 0 1px;
+  height: 100%;
+  width: 284px;
+}
+
+.taskBar header {
+  background-color: #f2f6ff;
+  border-bottom: 1px solid var(--main-border-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 85px;
+}
+
+.taskBar__body {
+  background-image: linear-gradient(#ebeffa, #f2f6ff);
+  display: flex;
+  flex-direction: column;
+  height: calc(100% - 74px);
+  justify-content: space-between;
+  padding: 1.2rem;
+}
+
+.taskBar__helpdesk {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 8px;
+}
+
+.taskBar__helpdesk > p {
+  color: gray;
+  font-size: 12px;
+  margin: 1rem 0 0.7rem;
+  text-align: center;
+}
+
+.taskBar__helpdesk > span {
+  color: #2561ee;
+  display: flex;
+}
+
+.taskBar__helpdesk > span > svg {
+  margin-right: 5px;
+}
+
+.taskBar__image {
+  width: 64%;
+}
+
+.taskBar__list {
+  margin-top: 0.5rem;
+}
+
+.taskBar__number {
+  font-weight: bold;
+}
+
+.taskBar__subHeader {
+  align-items: center;
+  display: flex;
+  font-size: 12px;
+  justify-content: space-between;
+}
+
+.taskBar__subHeader > span {
+  align-items: center;
+  display: flex;
+}
+
+.taskBar__subHeader > span p:first-child {
+  color: #1e54e8;
+  margin-right: 4px;
+}
+
+.taskBar__subTitle {
+  background-color: #ffaf2a;
+  /* Arbitrary number used for the radius to ensure the rounded half circle corners. */
+  border-radius: 9999px;
+  padding: 0.3rem 0.6rem;
+}
+
+.taskBar__title {
+  padding: 0 1.6rem;
+}

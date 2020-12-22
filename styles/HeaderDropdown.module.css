@@ -1,0 +1,39 @@
+.headerDropdown {
+  align-items: center;
+  display: flex;
+  height: 100%;
+  margin-right: 8px;
+  min-width: 150px;
+}
+
+.headerDropdown:last-child {
+  margin-right: 0;
+}
+
+.headerDropdown img {
+  border-radius: 17px;
+  height: 34px;
+  margin-right: 8px;
+  width: 34px;
+}
+
+.headerDropdown > span:nth-child(2) {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+}
+
+.headerDropdown__image {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.headerDropdown__image > svg {
+  min-height: 34px;
+  min-width: 34px;
+}
+
+.headerDropdown__title {
+  color: gray;
+}

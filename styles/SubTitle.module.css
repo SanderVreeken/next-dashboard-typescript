@@ -1,0 +1,10 @@
+.subTitle {
+  align-items: center;
+  display: flex;
+  margin-top: 28px;
+  padding: 1rem 0;
+}
+
+.subTitle__text {
+  margin-right: 10px;
+}

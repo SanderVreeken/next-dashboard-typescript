@@ -1,0 +1,24 @@
+.cardData {
+  display: flex;
+  flex-direction: column;
+  padding: 0.8rem 1.2rem;
+}
+
+.cardData > span {
+  align-items: center;
+  display: flex;
+}
+
+.cardData__percentage {
+  background: #7f7f7f;
+  border-radius: 9999px;
+  margin-left: 8px;
+  opacity: 0.18;
+  padding: 0.5rem;
+}
+
+.cardData__status {
+  font-size: 14px;
+  margin-top: 2px;
+  opacity: 0.5;
+}

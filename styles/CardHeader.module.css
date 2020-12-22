@@ -1,0 +1,21 @@
+.cardHeader {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+}
+
+.cardHeader > span {
+  margin-left: 12px;
+  padding-right: 0.8rem;
+}
+
+.cardHeader svg {
+  height: 24px;
+  width: 24px;
+}
+
+.cardHeader__subTitle {
+  font-weight: 500;
+  opacity: 0.4;
+}

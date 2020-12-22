@@ -1,0 +1,71 @@
+.cardProject {
+  position: relative;
+}
+
+.cardProject__bar {
+  /* background-color: hotpink; */
+  border-radius: 0 0 5px 5px;
+  bottom: -1.8rem;
+  display: flex;
+  height: 6px;
+  left: -1.8rem;
+  position: absolute;
+  width: 348px;
+}
+
+.cardProject__bar > div:first-child,
+.cardProject__statuses > span:first-child > div {
+  background-color: #54b98d;
+}
+
+.cardProject__bar > div:nth-child(2),
+.cardProject__statuses > span:nth-child(2) > div {
+  background-color: #ff9527;
+}
+
+.cardProject__bar > div:last-child,
+.cardProject__statuses > span:last-child > div {
+  background-color: #f33036;
+}
+
+.cardProject__description {
+  margin: 10px 0 16px 0;
+}
+
+.cardProject__description,
+.cardProject__statuses {
+  font-size: 13px;
+}
+
+.cardProject__statuses,
+.cardProject__statuses span {
+  align-items: center;
+  display: flex;
+}
+
+.cardProject__statuses span {
+  margin-right: 10px;
+}
+
+.cardProject__statuses span:last-child {
+  margin-right: 0;
+}
+
+.cardProject__statuses > span > div {
+  align-items: center;
+  border-radius: 13px;
+  color: white;
+  display: flex;
+  height: 26px;
+  justify-content: center;
+  padding: 0.1rem;
+  width: 26px;
+}
+
+.cardProject__statuses > span > p {
+  margin-left: 6px;
+}
+
+.cardProject__title {
+  color: #2561ee;
+}

@@ -1,0 +1,21 @@
+.cardContact__company {
+  font-size: 13px;
+  margin: 10px 0 16px 0;
+}
+
+.cardContact__name {
+  color: #2561ee;
+}
+
+.cardContact__time {
+  margin-left: 4px;
+  color: gray;
+}
+
+.cardContact__updated {
+  display: flex;
+}
+
+.cardContact__updated > h5 {
+  font-weight: 600;
+}

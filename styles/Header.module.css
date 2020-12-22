@@ -1,0 +1,26 @@
+.header {
+  align-items: center;
+  display: flex;
+  /* TODO: Ensure all headers are the same height. */
+  justify-content: space-between;
+  height: 84px;
+}
+
+.header > section:nth-child(2) {
+  display: flex;
+}
+
+.header span {
+  align-items: center;
+  display: flex;
+}
+
+.header input {
+  font-size: 14px;
+}
+
+.header svg {
+  height: 24px;
+  margin-right: 8px;
+  width: 24px;
+}

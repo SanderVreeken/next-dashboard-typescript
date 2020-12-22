@@ -1,0 +1,62 @@
+.task {
+  align-items: center;
+  border-bottom: 1px solid #dddddd;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 100%;
+  padding: 1rem 0;
+}
+
+.task h1,
+.task p {
+  font-size: 12px;
+}
+
+.task svg {
+  color: #326dfa;
+  font-weight: 900;
+  height: 9px;
+  width: 9px;
+}
+
+.task__arrow {
+  height: fit-content;
+  padding: 0 0.4rem;
+  min-width: fit-content;
+}
+
+.task__arrow > div {
+  align-items: center;
+  background-color: #e3eafb;
+  border-radius: 12px;
+  display: flex;
+  height: 24px;
+  justify-content: center;
+  width: 24px;
+}
+
+.task__new {
+  background-color: #f33036;
+  border-radius: 3px;
+  height: 6px;
+  margin-right: 5px;
+  width: 6px;
+}
+
+.task__title {
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* TODO: Rewrite the styling, so the width of the div is calculated automatically rather than restricting this to 80%. */
+.task__titles {
+  max-width: 80%;
+}
+
+.task__titles > span {
+  align-items: center;
+  display: flex;
+}
